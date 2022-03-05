@@ -74,13 +74,13 @@ section {
 }
 
 section .title{
-  font-size: 40px;
+  font-size: 36px;
   color: #000000;
   border-right: 3px solid;
   padding-bottom: 20px;
   text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
+  min-width: 20%;
+  max-width: 20%;
 }
 
 .flex-row {
@@ -94,6 +94,24 @@ section .title{
   margin: 0 auto;
   text-align: left;
 }
+
+.run-buddy{
+  background-image: url("./images/run-buddy.png");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 950px;
+}
+.grid {
+  display: flex;
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
 
 
   
