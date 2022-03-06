@@ -66,11 +66,12 @@ section {
 
 .hero div p {
   font-size: 24px;
-  padding-bottom: 15px;
-  padding-right: 15px;
   position: absolute;
   bottom: 0;
   right: 0;
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--background-color);
 }
 
 section .title{
@@ -147,6 +148,26 @@ section .title{
   width: 80%;
   margin: 0 auto;
 }
+
+.background-title {
+  background-color: var(--background-color);
+  position: relative;
+  line-height: 1.5;
+  display: table;
+  top: 500px;
+  padding: 2px 2px 2px 40px;
+}
+
+.label {
+  background-color: var(--background-color);
+  display: table;
+  position: relative;
+  top: 230px;
+  padding: 2px 2px 2px 30px;
+}
+
+
+
 
 
 
